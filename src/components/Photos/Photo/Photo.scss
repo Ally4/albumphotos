@@ -1,0 +1,17 @@
+.photo {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: .1rem solid black;
+
+    img {
+        max-width: 100px;
+        align-self: stretch;
+    }
+
+    p {
+        font-size: 14px;
+        padding: 10px;
+        color: black;
+    }
+}

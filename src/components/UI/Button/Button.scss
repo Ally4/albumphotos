@@ -1,0 +1,28 @@
+.btn {
+
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 0px 10px;
+        display: inline-block;
+        transition: all 0.5s;
+        position: relative;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+
+    &-primary {
+        background-color: #6b6d69;
+        color: rgb(255, 255, 255);
+
+        &:hover {
+            background-color: #393c39;
+        }
+    }
+}
