@@ -35,7 +35,7 @@ const App = () => {
 
     try {
       const response = await axios.get(
-        `https://jsonplaceholder.typicode.com/albums/${albumId}/photos`
+        `https://albumsphotos.herokuapp.com/api/albums/${albumId}`
       );
 
 	  if(response.data.length === 0) setMessage("no album");
